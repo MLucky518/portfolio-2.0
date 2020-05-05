@@ -1,0 +1,132 @@
+
+
+
+body {
+background-color:#5a3d5c;
+
+}
+
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.App {
+  background-color: #5a3d5c;
+ 
+}
+
+
+
+
+.top-content{
+  background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1093&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  background-attachment: fixed;
+}
+
+.main-image {
+  height:60vh;
+  border-radius: 10%;
+}
+
+.my-info {
+  width: 33%;
+  color: #f638dc;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:5%;
+  height:100%;
+}
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 5%;
+  font-size: 1.3rem;
+}
+
+h1{
+  font-size: 3rem;
+  color:#f638dc;
+}
+
+.content{
+  display: flex;
+  justify-content:center;
+ 
+
+}
+i{
+  color:#f638dc;
+  font-size:5rem;
+ 
+}
+
+
+
+.about-container{
+  color:white;
+  margin-right:15%;
+}
+
+.skill-container{
+  text-align: center;
+  width: 100% !important;
+}
+
+.github-container{
+  text-align: center;
+  width:100%;
+}
+
+.skill-flex{
+  
+  width:100% !important;
+
+}
+.item{
+  width:20% !important;
+  border: 1px solid #512b58 !important;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  text-align:center;
+  &:hover {
+    transform: scale3d(1.4, 1.4, 1) ;
+    opacity: 95%;
+  }
+}
+
+.items{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-evenly;
+ text-align: center;
+  width:100%;
+}
+.react{
+  position: relative;
+  top:13px;
+}
+
+.tiny{
+  margin-bottom: 5% !important;
+  margin-left: 7% !important;
+}
