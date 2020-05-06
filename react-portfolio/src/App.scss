@@ -19,7 +19,7 @@ background-color:#5a3d5c;
 }
 
 .App {
-  background-color: #5a3d5c;
+  background-color: #844685;
  
 }
 
@@ -39,6 +39,7 @@ background-color:#5a3d5c;
 .main-image {
   height:60vh;
   border-radius: 10%;
+  box-shadow: 5px 5px 12px 5px #f638dc;
 }
 
 .my-info {
@@ -63,6 +64,7 @@ li {
 h1{
   font-size: 3rem;
   color:#f638dc;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .content{
@@ -74,7 +76,7 @@ h1{
 i{
   color:#f638dc;
   font-size:5rem;
- 
+  text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -108,9 +110,10 @@ i{
   align-items: center;
   justify-content: center ;
   text-align:center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #f638dc(0, 0, 0, 0.19);
   &:hover {
     transform: scale3d(1.4, 1.4, 1) ;
-    opacity: 95%;
+    
   }
 }
 

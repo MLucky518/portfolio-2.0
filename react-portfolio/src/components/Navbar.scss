@@ -15,9 +15,11 @@ text-align: center;
   i {
     font-size: 3rem;
     color: #f638dc;
+    text-shadow: 2px 2px 4px #000000;
 margin-top: 2%;
     &:hover {
       color: lightpink;
+      font-size: 4rem;
     }
   }
 }
