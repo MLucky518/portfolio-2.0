@@ -1,9 +1,5 @@
-
-
-
 body {
-background-color:#5a3d5c;
-
+  background-color: #5a3d5c;
 }
 
 .serif {
@@ -20,26 +16,22 @@ background-color:#5a3d5c;
 
 .App {
   background-color: #844685;
- 
 }
 
-
-
-
-.top-content{
+.top-content {
   background-image: url("https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1093&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
   background-attachment: fixed;
 }
 
 .main-image {
-  height:60vh;
+  height: 60vh;
   border-radius: 10%;
-  box-shadow: 5px 5px 12px 5px #f638dc;
+  box-shadow: 0 0 25px #f638dc;
 }
 
 .my-info {
@@ -47,8 +39,8 @@ background-color:#5a3d5c;
   color: #f638dc;
   font-weight: bold;
   text-align: center;
-  margin-bottom:5%;
-  height:100%;
+  margin-bottom: 5%;
+  height: 100%;
 }
 ul {
   list-style-type: square;
@@ -61,75 +53,78 @@ li {
   font-size: 1.3rem;
 }
 
-h1{
+h1 {
   font-size: 3rem;
-  color:#f638dc;
+  color: #f638dc;
   text-shadow: 2px 2px 4px #000000;
 }
+.header{
+  
+    font-size: 3rem !important;
+    color: #f638dc !important;
+    text-shadow: 2px 2px 4px #000000;
+  
+}
 
-.content{
+.content {
   display: flex;
-  justify-content:center;
- 
-
+  justify-content: center;
 }
-i{
-  color:#f638dc;
-  font-size:5rem;
+i {
+  color: #f638dc;
+  font-size: 5rem;
   text-shadow: 2px 2px 4px #000000;
 }
 
-
-
-.about-container{
-  color:white;
-  margin-right:15%;
+.about-container {
+  color: white;
+  margin-right: 15%;
 }
 
-.skill-container{
+.skill-container {
   text-align: center;
   width: 100% !important;
 }
 
-.github-container{
+.github-container {
   text-align: center;
-  width:100%;
+  width: 100%;
 }
 
-.skill-flex{
-  
-  width:100% !important;
-
+.skill-flex {
+  width: 100% !important;
 }
-.item{
-  width:20% !important;
-  border: 1px solid #512b58 !important;
+.item {
+  width: 20% !important;
   height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center ;
-  text-align:center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #f638dc(0, 0, 0, 0.19);
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 #f638dc(0, 0, 0, 0.19);
   &:hover {
-    transform: scale3d(1.4, 1.4, 1) ;
-    
+    transform: scale3d(1.4, 1.4, 1);
   }
 }
 
-.items{
+.items {
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: space-evenly;
- text-align: center;
-  width:100%;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2%;
+ 
+ 
 }
-.react{
+.react {
   position: relative;
-  top:13px;
+  top: 13px;
 }
 
-.tiny{
+.tiny {
   margin-bottom: 5% !important;
   margin-left: 7% !important;
 }

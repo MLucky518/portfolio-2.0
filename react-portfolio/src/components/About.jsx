@@ -1,9 +1,14 @@
 import React from "react";
+import Typing from "react-typing-animation";
 
 function About() {
   return (
     <div class="ui text container about-container">
-    <h2 class="ui header">Header</h2>
+      <Typing speed = {150}>
+    <h2 class="ui header monospace ">"Hello World,"</h2>
+    
+    <Typing.Delay ms={1300} />
+    </Typing>
     <p>
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
       Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
