@@ -39,7 +39,7 @@ export default class MyInfo extends Component {
         <img
           className="main-image"
           src={
-            "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/83762975_2717257261693539_2815335433142009856_n.jpg?_nc_cat=111&_nc_sid=110474&_nc_ohc=bD-DPxtTst8AX8QFLH_&_nc_ht=scontent-lga3-1.xx&oh=63c58a0c502ab11dd5eac9a389e5076a&oe=5ECA1852"
+            "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/89241752_2787365621349369_4261192403328696320_n.jpg?_nc_cat=108&_nc_sid=174925&_nc_ohc=jzyzxCNbFJwAX8Dm2DM&_nc_ht=scontent-ort2-2.xx&oh=1fd5697a5e31405e78edce9001a163ba&oe=5F4FCD45"
           }
         />
         <h1 ref={(h1) => (this.myElement = h1)}>Michael Luck</h1>
