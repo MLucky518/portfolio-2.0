@@ -30,6 +30,7 @@ function GithubInfo() {
 
   useEffect(() => {
     getData();
+    
   }, []);
 
   console.log(userInfo);

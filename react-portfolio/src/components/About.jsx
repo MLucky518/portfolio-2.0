@@ -1,39 +1,27 @@
-import React from "react";
-import Typing from "react-typing-animation";
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 
-function About() {
+
+function About(props) {
+
+  
+  useEffect(() => {
+    gsap.to(".about-container", 2, {
+      startAt: { x: -1000, opacity: 1 },
+      x: 10,
+      y: 10,
+    });
+  }, []);
+  console.log(props);
   return (
-    <div class="ui text container about-container">
-      <Typing speed = {150}>
-    <h2 class="ui header monospace ">"Hello World,"</h2>
-    
-    <Typing.Delay ms={1300} />
-    </Typing>
-    <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-      Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-      consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-      In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link
-      mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-      eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
-      lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-      laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-      ultricies nisi.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-      Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-      consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-      In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link
-      mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate
-      eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
-      lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-      laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-      ultricies nisi.
-    </p>
-  </div>
+    <div className="ui text container about-container">
+      <h2 className="ui header monospace ">{props.header}</h2>
+
+      <p>{props.info.about1}</p>
+      <p>{props.info.about2}</p>
+
+      
+    </div>
   );
 }
 

@@ -38,11 +38,21 @@ function Skills() {
           </div>
           <div class="item">
             <div class="ui tiny image">
-            <i class="fab fa-css3"></i>
+              <i class="fab fa-css3"></i>
             </div>
             <div class="content">
               <a class="header">CSS</a>
               <div class="meta">Cascading Style Sheets</div>
+              <div class="description">dhydsi</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="ui tiny image">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="content">
+              <a class="header">Python</a>
+              <div class="meta">Programming Language</div>
               <div class="description">dhydsi</div>
             </div>
           </div>
