@@ -91,6 +91,7 @@ i {
   margin-top: 3%;
   display: flex !important;
   flex-direction: column !important;
+  height:50%;
   h2 {
     margin-bottom: 2% !important;
     color: #4b285c !important;
@@ -195,9 +196,10 @@ i {
     top:4%;
     flex-direction: column;
     align-items: center;
+    height:50%;
     .tiny{
       position: relative;
-      left:28%;
+      left:26%;
     }
   }
   .main-image{
