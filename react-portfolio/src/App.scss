@@ -41,7 +41,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 5%;
-  height: 75vh;
+  height: 100vh;
 }
 ul {
   list-style-type: square;
@@ -59,15 +59,10 @@ h1 {
   color: #4b285c;
   text-shadow: 1px 1px 2px #ffffff;
 }
-.header {
+.skill_header {
   font-size: 3rem !important;
   color: #341b41;
   text-shadow: 1px 1px 1px #ffffff;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
 }
 
 i {
@@ -91,7 +86,7 @@ i {
   margin-top: 3%;
   display: flex !important;
   flex-direction: column !important;
-  height:50%;
+  height: 50%;
   h2 {
     margin-bottom: 2% !important;
     color: #4b285c !important;
@@ -101,22 +96,19 @@ i {
   }
 }
 
-.skill-container {
+.skills-container {
   text-align: center;
   width: 100% !important;
-  
 }
 
 .github-container {
   text-align: center;
   width: 100%;
   margin-top: 3%;
-  
 }
 
-
-.item {
-  width: 20% !important;
+.skill_item {
+  width: 30% !important;
   height: 20vh;
   display: flex;
   flex-direction: column;
@@ -130,13 +122,13 @@ i {
   }
 }
 
-.items  {
-  display: flex !important;
-  flex-wrap: wrap !important;
+.skill_items {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  height:100%;
+  height: 100%;
   padding-bottom: 2%;
 }
 .react {
@@ -144,70 +136,61 @@ i {
   top: 13px;
 }
 
-.tiny {
-  margin-bottom: 5% !important;
-  margin-left: 3% !important;
-}
-
-.calendar{
+.calendar {
   background-color: #341b41;
   width: 50%;
   position: relative;
-  left:25%;
-  
+  left: 25%;
 }
 
-
-
-
-@media only screen and (min-width:550px) and (max-width: 1089px){
-  .top-content{
+@media only screen and (min-width: 550px) and (max-width: 1089px) {
+  .top-content {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height:160vh;
+    height: 160vh;
   }
-  .items{
+  .skill_items {
     position: relative;
-    right:2%;
-    top:4%;
+    right: 2%;
+    top: 4%;
   }
-  .main-image{
+  .main-image {
     position: relative;
-    right:5%;
+    right: 25%;
   }
-  .calendar{
-    width:60%;
-    left:21%;
+  .calendar {
+    width: 60%;
+    left: 21%;
   }
-
 }
 
-@media only screen and (max-width:549px){
-  .top-content{
+@media only screen and (max-width: 549px) {
+  .top-content {
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    height:250vh;
+
+    justify-content: space-between;
+    height: 160vh;
   }
-  .items{
+  .skill_items {
     position: relative;
-    right:2%;
-    top:4%;
-    flex-direction: column;
+    right: 2%;
+    top: 4%;
+
     align-items: center;
-    height:50%;
-    .tiny{
-      position: relative;
-      left:26%;
+    height: 50%;
+
+    .skill_header {
+      font-size: 2rem !important;
     }
   }
-  .main-image{
+  .main-image {
     position: relative;
-    right:55%;
+    right: 65%;
   }
-  .calendar{
-    width:80%;
-    left:10%;
+  .calendar {
+    width: 80%;
+    left: 10%;
   }
 }
