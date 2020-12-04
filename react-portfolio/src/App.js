@@ -8,7 +8,6 @@ import About from "./components/About";
 import MyInfo from "./components/MyInfo";
 import { aboutInfo, gitInfo, unityInfo } from "./components/util";
 import Contact from "./components/Contact";
-import Unity from "./components/Unity";
 import { VFXProvider } from "react-vfx";
 
 function App() {
@@ -40,9 +39,7 @@ function App() {
           </div>
           <div className="content">
             <Switch>
-              <Route exact path="/Unity">
-                <Unity />
-              </Route>
+              
             </Switch>
           </div>
         </div>

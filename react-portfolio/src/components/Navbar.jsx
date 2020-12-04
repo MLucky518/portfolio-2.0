@@ -23,12 +23,7 @@ function Navbar() {
         </NavLink>
         MySkills
       </div>
-      <div className="nav-icon">
-        <NavLink className="nav" to="/Unity">
-          <i className="fab fa-unity"></i>
-        </NavLink>{" "}
-        Unity
-      </div>
+
       <div className="nav-icon">
         <NavLink className="nav" to="/projects">
           <i className="fas fa-tasks"></i>
