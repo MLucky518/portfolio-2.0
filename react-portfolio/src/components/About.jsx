@@ -14,8 +14,8 @@ function About(props) {
   }, []);
   console.log(props);
   return (
-    <div className="ui text container about-container">
-      <h2 className="ui header monospace ">{props.header}</h2>
+    <div className=" about-container">
+      <h2 >{props.header}</h2>
 
       <p>{props.info.about1}</p>
       <p>{props.info.about2}</p>
