@@ -47,9 +47,9 @@ export default class MyInfo extends Component {
         <h1 ref={(h1) => (this.myElement = h1)}>Michael Luck</h1>
         <ul className="info monospace">
           <Typing>
-            <li>Web Developer</li>
-            <li>Indie Game dev</li>
-            <li>Full stack web development student at Lambda School</li>
+            <p>Web Developer</p>
+            <p>Indie Game dev</p>
+            <p>Full stack web development student at Lambda School</p>
           </Typing>
           <Link to = "/contact"><i className="far fa-id-card"></i></Link>
         </ul>

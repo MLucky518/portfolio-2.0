@@ -40,7 +40,12 @@ function GithubInfo() {
       <h1>My GithubInfo</h1>
       <img src={userInfo.avatar_url}></img>
       <h1>{userInfo.login}</h1>
-      <GitHubCalendar color="purple" username={userInfo.login} />
+      <div className="calendar">
+      <GitHubCalendar 
+       color="purple" 
+       username={userInfo.login}
+       blockSize={14} />
+       </div>
     </div>
   );
 }
