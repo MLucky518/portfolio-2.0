@@ -26,22 +26,25 @@ body {
   justify-content: space-between;
   width: 100%;
   background-attachment: fixed;
+  
+  
 }
 
 .main-image {
   margin-top: 5%;
-  height: 55vh;
-  border-radius: 10%;
   box-shadow: 0 0 50px #4b285c;
 }
 
 .my-info {
   width: 33%;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 5%;
-  height: 100vh;
+  height: 70%;
 }
 ul {
   list-style-type: square;
@@ -82,12 +85,13 @@ i {
   color: white !important;
   font-size: 1.5rem !important;
   font-weight: bold;
-  margin-right: 15%;
-  width: 50%;
+  margin-right: 3%;
+  text-align: center;
+  width: 70%;
   margin-top: 3%;
   display: flex !important;
   flex-direction: column !important;
-  height: 50%;
+  height: 30%;
   h2 {
     margin-bottom: 2% !important;
     color: #4b285c !important;
@@ -144,22 +148,25 @@ i {
   left: 25%;
 }
 
+.footer {
+  background-color:  #2f163a;
+
+  height: 10vh;
+}
+
 @media only screen and (min-width: 550px) and (max-width: 1089px) {
   .top-content {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 160vh;
+    height: 120vh;
   }
   .skill_items {
     position: relative;
     right: 2%;
     top: 4%;
   }
-  .main-image {
-    position: relative;
-    right: 25%;
-  }
+
   .calendar {
     width: 60%;
     left: 21%;
@@ -172,7 +179,7 @@ i {
     align-items: center;
 
     justify-content: space-between;
-    height: 160vh;
+    height: 120vh;
   }
   .skill_items {
     position: relative;
@@ -186,10 +193,7 @@ i {
       font-size: 2rem !important;
     }
   }
-  .main-image {
-    position: relative;
-    right: 65%;
-  }
+
   .calendar {
     width: 80%;
     left: 10%;

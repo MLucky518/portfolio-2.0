@@ -6,9 +6,10 @@ import GithubInfo from "./components/GithubInfo";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import MyInfo from "./components/MyInfo";
-import { aboutInfo, gitInfo, unityInfo } from "./components/util";
-import Contact from "./components/Contact";
+import { aboutInfo,unityInfo } from "./components/util";
+
 import { VFXProvider } from "react-vfx";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Router>
         <div className="App">
           <Navbar />
-          <div className="top-content">
+          <div className="top-content ">
             <MyInfo />
             <Switch>
               <Route exact path="/">
@@ -29,19 +30,12 @@ function App() {
                 <About info={unityInfo} header={"Passion for creation"} />
               </Route>
 
-              <Route exact path="/contact">
-                <Contact />
-              </Route>
               <Route exact path="/mySkills">
                 <Skills />
               </Route>
             </Switch>
           </div>
-          <div className="content">
-            <Switch>
-              
-            </Switch>
-          </div>
+          <Footer/>
         </div>
       </Router>
     </VFXProvider>

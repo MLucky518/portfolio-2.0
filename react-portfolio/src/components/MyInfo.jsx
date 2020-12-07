@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Typing from "react-typing-animation";
 import { gsap } from "gsap";
-import pic from "../lab.jpg"
-import { Link } from "react-router-dom";
+import pic from "../lab.jpg";
+import MyModal from "./MyModal";
+import { Image } from 'semantic-ui-react'
 
 export default class MyInfo extends Component {
   constructor(props) {
@@ -37,13 +38,8 @@ export default class MyInfo extends Component {
   render() {
     return (
       <div className="my-info">
-          
-        <img
-          className="main-image"
-          src={
-            pic
-          }
-        />
+        <Image className="main-image" src={pic} size ="large" fluid />
+
         <h1 ref={(h1) => (this.myElement = h1)}>Michael Luck</h1>
         <ul className="info">
           <Typing>
@@ -51,7 +47,7 @@ export default class MyInfo extends Component {
             <p>Indie Game dev</p>
             <p>Full stack web development student at Lambda School</p>
           </Typing>
-          <Link to = "/contact"><i className="far fa-id-card"></i></Link>
+          <MyModal />
         </ul>
       </div>
     );
