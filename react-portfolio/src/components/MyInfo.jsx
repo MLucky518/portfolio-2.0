@@ -43,9 +43,9 @@ export default class MyInfo extends Component {
         <h1 ref={(h1) => (this.myElement = h1)}>Michael Luck</h1>
         <ul className="info">
           <Typing>
-            <p>Web Developer</p>
+            <p>Full Stack Web Developer</p>
             <p>Indie Game dev</p>
-            <p>Full stack web development student at Lambda School</p>
+            
           </Typing>
           <MyModal />
         </ul>
