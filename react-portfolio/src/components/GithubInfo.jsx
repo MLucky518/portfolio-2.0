@@ -3,7 +3,7 @@ import axios from "axios";
 import GitHubCalendar from "react-github-calendar";
 
 function GithubInfo() {
-  const [userInfo, serUserInfo] = useState({});
+  const [userInfo, setUserInfo] = useState({});
 
   const getData = () => {
     axios
@@ -11,7 +11,7 @@ function GithubInfo() {
 
       .then((res) => {
         console.log(res);
-        serUserInfo(res.data);
+        setUserInfo(res.data);
         axios
           .get("https://api.github.com/users/MLucky518/repos")
 
@@ -30,22 +30,22 @@ function GithubInfo() {
 
   useEffect(() => {
     getData();
-    
   }, []);
 
   console.log(userInfo);
 
   return (
-    <div className = "github-container">
+    <div className="github-container">
       <h1>My GithubInfo</h1>
       <img src={userInfo.avatar_url}></img>
       <h1>{userInfo.login}</h1>
       <div className="calendar">
-      <GitHubCalendar 
-       color="purple" 
-       username={userInfo.login}
-       blockSize={14} />
-       </div>
+        <GitHubCalendar
+          color="purple"
+          username={userInfo.login}
+          blockSize={14}
+        />
+      </div>
     </div>
   );
 }
