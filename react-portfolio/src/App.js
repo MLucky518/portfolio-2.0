@@ -10,6 +10,7 @@ import { aboutInfo, unityInfo } from "./components/util";
 
 import { VFXProvider } from "react-vfx";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
               </Route>
               <Route exact path="/myGithub">
                 <GithubInfo />
+              </Route>
+              <Route exact path="/projects">
+                <Projects/>
               </Route>
 
               <Route exact path="/mySkills">
