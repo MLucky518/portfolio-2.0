@@ -23,7 +23,7 @@ function MyModal() {
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
-        <Button color="purple" onClick={() => setOpen(false)}>
+        <Button color="violet" onClick={() => setOpen(false)}>
           Close
         </Button>
       </Modal.Actions>

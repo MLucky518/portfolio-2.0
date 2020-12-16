@@ -16,10 +16,10 @@ function App() {
   return (
     <VFXProvider>
       <Router>
-        <div className="App">
-          <Navbar />
-          <div className="top-content ">
-            <Switch>
+        <Switch>
+          <div className="App">
+            <Navbar />
+            <div className="top-content ">
               <Route exact path="/">
                 <MyInfo />
                 <About info={aboutInfo} header={"Hello World,"} />
@@ -28,15 +28,15 @@ function App() {
                 <GithubInfo />
               </Route>
               <Route exact path="/projects">
-                <Projects/>
+                <Projects />
               </Route>
 
               <Route exact path="/mySkills">
                 <Skills />
               </Route>
-            </Switch>
+            </div>
           </div>
-        </div>
+        </Switch>
       </Router>
     </VFXProvider>
   );
