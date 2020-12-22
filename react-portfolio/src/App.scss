@@ -159,23 +159,35 @@ i {
   justify-content: center;
 }
 
-.card{
+.card {
   border: 1px solid purple !important;
   text-align: center;
   color: #4b285c;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:50px !important;
+  padding: 50px !important;
   box-shadow: 0 0 50px #4b285c !important;
-  li{
-    margin-top:8%;
-    text-decoration: none;
+  li {
+    margin-top: 8%;
   }
 }
 
+ul {
+  list-style-type: none;
+}
 
+.projects {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 
+  .project {
+    width: 40% !important;
+    margin: 3%;
+  }
+}
 
 @media only screen and (min-width: 550px) and (max-width: 1089px) {
   .top-content {
@@ -194,6 +206,16 @@ i {
     width: 60%;
     left: 21%;
   }
+  .projects {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: relative;
+
+    top: 60%;
+    .project {
+      width: 80% !important;
+    }
+  }
 }
 
 @media only screen and (max-width: 549px) {
@@ -202,7 +224,7 @@ i {
     align-items: center;
 
     justify-content: space-between;
-    height: 130vh;
+    height: 180vh;
   }
   .skill_items {
     position: relative;
@@ -230,5 +252,12 @@ i {
   }
   .carousel {
     width: 100% !important;
+  }
+  .projects {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    .project {
+      width: 80% !important;
+    }
   }
 }

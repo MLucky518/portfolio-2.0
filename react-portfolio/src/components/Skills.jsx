@@ -1,15 +1,15 @@
 import React from "react";
-import { Image, Reveal } from "semantic-ui-react";
+
 
 function Skills() {
   return (
     <div className="skill_items">
-      <div className="ui three stackable cards">
+      <div className="ui three stackable cards ">
         <div
           style={{ backgroundColor: "black", marginTop: "40px" }}
           className="card"
         >
-          <div className="image">
+          <div className="image project">
             <h1>REACT</h1>
             <i class="fab fa-react"></i>
             <ul>
@@ -23,7 +23,7 @@ function Skills() {
           style={{ backgroundColor: "black", marginTop: "40px" }}
           className="card"
         >
-          <div className="image">
+          <div className="image project">
             <h1>HTML</h1>
             <i className="fab fa-html5"></i>
             <ul>
