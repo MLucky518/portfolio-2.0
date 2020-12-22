@@ -4,16 +4,16 @@ import { projectData } from "./util";
 
 function Projects() {
   return (
-    <div className="projects fluid">
+    <div className="projects ">
       
       {projectData.map((project) => {
         return (
-          <div class="ui card project fluid">
+          <div class="ui card project ">
             <h1>{project.projectName}</h1>
-            <div class="image">
+            <div class="image ">
               <img src={project.img} />
             </div>
-            <div class="content">
+            <div style={{borderTop:"2px solid purple",width:"100%"}} class="content">
               <div class="header">{project.projectName}</div>
               <div class="meta">
                 <span class="date">{}</span>
