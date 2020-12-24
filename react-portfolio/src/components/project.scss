@@ -3,8 +3,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 3%;
     .project{
         width:46%;
+        margin:14px !important;
+        background-color: black;
     }
 }

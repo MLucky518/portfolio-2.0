@@ -1,6 +1,9 @@
-import pic1 from "../1608578515471.png"
-
-
+import pic1 from "../1608578515471.png";
+import pic2 from "../pet.png";
+import pic3 from "../conway.png";
+import pic4 from "../calc.png";
+import pic5 from "../poke.png";
+import pic6 from "../ghana.png";
 
 export const aboutInfo = {
   about1:
@@ -19,52 +22,46 @@ export const unityInfo = {
 };
 
 export const projectData = [
-    {
-        img:pic1,
-        textContent:"",
-        techUsed:[],
-        links:["github- ","liveSite- "],
-        projectName:"DevDesk Queue"
-
-    }, 
-    {
-        img:"img",
-        textContent:"Pet-Xpress",
-        techUsed:[],
-        links:["github- ","liveSite- "]
-
-    },
-    {
-        img:"img",
-        textContent:"",
-        techUsed:[],
-        links:["github- ","liveSite- "],
-        projectName:"Conways's Game Of Life"
-
-    },
-    {
-        img:"img",
-        textContent:"",
-        techUsed:[],
-        links:["github- ","liveSite- "],
-        projectName:"Calculator"
-
-    },
-    {
-        img:"img",
-        textContent:"",
-        techUsed:[],
-        links:["github- ","liveSite- "],
-        projectName:"WeatherChek"
-
-    },
-    {
-        img:"img",
-        textContent:"",
-        techUsed:[],
-        links:["github- ","liveSite- "],
-        projectName:"International-School-Social-Worker"
-
-    },
-    
+  {
+    img: pic1,
+    textContent: "",
+    techUsed: [],
+    links: ["github- ", "liveSite- "],
+    projectName: "DevDesk Queue",
+  },
+  {
+    img: pic2,
+    textContent: "Pet-Xpress",
+    techUsed: [],
+    links: ["github- ", "liveSite- "],
+    projectName: "Pet-XPress",
+  },
+  {
+    img: pic3,
+    textContent: "",
+    techUsed: [],
+    links: ["github- ", "liveSite- "],
+    projectName: "Conways's Game Of Life (Space Populators)",
+  },
+  {
+    img: pic4,
+    textContent: "",
+    techUsed: [],
+    links: ["github- ", "liveSite- "],
+    projectName: "Calculator",
+  },
+  {
+    img: pic5,
+    textContent: "",
+    techUsed: [],
+    links: ["github- ", "liveSite- "],
+    projectName: "PokeDex",
+  },
+  {
+    img: pic6,
+    textContent: "",
+    techUsed: [],
+    links: ["github- ", "liveSite- "],
+    projectName: "International-School-Social-Worker",
+  },
 ];

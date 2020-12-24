@@ -10,6 +10,7 @@ function MyModal() {
       onOpen={() => setOpen(true)}
       open={open}
       trigger={<i className="far fa-id-card"></i>}
+      dimmer="blurring"
     >
       <Modal.Header>Contact Me</Modal.Header>
       <Modal.Content>
