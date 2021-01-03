@@ -24,16 +24,20 @@ export const unityInfo = {
 export const projectData = [
   {
     img: pic1,
-    textContent: "",
-    techUsed: [],
-    links: ["github- ", "liveSite- "],
+    textContent: "Landing page and about page I built for my first Lambda Labs group. Everything was done in HTML/CSS with vanilla JS",
+    techUsed: "HTML/CSS/JS",
+    links: [],
+    github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
+    liveSite:"https://flamboyant-noyce-8e4b0e.netlify.app",
     projectName: "DevDesk Queue",
   },
   {
     img: pic2,
     textContent: "Pet-Xpress",
     techUsed: [],
-    links: ["github- ", "liveSite- "],
+    links: ["github-", "liveSite- "],
+    github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
+    liveSite:"https://flamboyant-noyce-8e4b0e.netlify.app",
     projectName: "Pet-XPress",
   },
   {
@@ -41,6 +45,8 @@ export const projectData = [
     textContent: "",
     techUsed: [],
     links: ["github- ", "liveSite- "],
+    github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
+    liveSite:"https://flamboyant-noyce-8e4b0e.netlify.app",
     projectName: "Conways's Game Of Life (Space Populators)",
   },
   {
@@ -48,6 +54,8 @@ export const projectData = [
     textContent: "",
     techUsed: [],
     links: ["github- ", "liveSite- "],
+    github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
+    liveSite:"https://flamboyant-noyce-8e4b0e.netlify.app",
     projectName: "Calculator",
   },
   {
@@ -55,6 +63,8 @@ export const projectData = [
     textContent: "",
     techUsed: [],
     links: ["github- ", "liveSite- "],
+    github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
+    liveSite:"https://flamboyant-noyce-8e4b0e.netlify.app",
     projectName: "PokeDex",
   },
   {
@@ -62,6 +72,8 @@ export const projectData = [
     textContent: "",
     techUsed: [],
     links: ["github- ", "liveSite- "],
+    github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
+    liveSite:"https://flamboyant-noyce-8e4b0e.netlify.app",
     projectName: "International-School-Social-Worker",
   },
 ];

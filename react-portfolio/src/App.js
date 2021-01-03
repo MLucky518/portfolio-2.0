@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.scss";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -6,15 +6,12 @@ import GithubInfo from "./components/GithubInfo";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import MyInfo from "./components/MyInfo";
-import { aboutInfo, unityInfo } from "./components/util";
-
-import { VFXProvider } from "react-vfx";
-import Footer from "./components/Footer";
+import { aboutInfo } from "./components/util";
 import Projects from "./components/Projects";
 
 function App() {
   return (
-    <VFXProvider>
+   
       <Router>
         <Switch>
           <div className="App">
@@ -38,7 +35,7 @@ function App() {
           </div>
         </Switch>
       </Router>
-    </VFXProvider>
+    
   );
 }
 

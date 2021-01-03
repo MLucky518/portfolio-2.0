@@ -9,8 +9,8 @@ function Skills() {
           className="card"
         >
           <div className="image project">
-            <h1>REACT</h1>
             <i class="fab fa-react"></i>
+            <h1>REACT</h1>
             <ul>
               <li>Redux State Management</li>
               <li>Web Api's</li>
@@ -23,8 +23,8 @@ function Skills() {
           className="card"
         >
           <div className="image project">
-            <h1>HTML</h1>
             <i className="fab fa-html5"></i>
+            <h1>HTML</h1>
             <ul>
               <li>HTML 5</li>
             </ul>
@@ -35,8 +35,8 @@ function Skills() {
           className="card"
         >
           <div className="image">
-            <h1>CSS</h1>
             <i className="fab fa-css3"></i>
+            <h1>CSS</h1>
             <ul>
               <li>Preprocessors (LESS,SASS)</li>
               <li>GSAP animation library</li>
@@ -51,8 +51,8 @@ function Skills() {
           className="card"
         >
           <div className="image">
-            <h1>JavaScript</h1>
             <i className="fab fa-js-square"></i>
+            <h1>JavaScript</h1>
             <ul>
               <li>Ajax</li>
               <li>GSAP animation library</li>
@@ -67,8 +67,8 @@ function Skills() {
           className="card"
         >
           <div className="image">
-            <h1>Python</h1>
             <i class="fab fa-python"></i>
+            <h1>Python</h1>
           </div>
         </div>
         <div
@@ -76,8 +76,8 @@ function Skills() {
           className="card"
         >
           <div className="image">
-            <h1>NODE</h1>
             <i class="fab fa-node"></i>
+            <h1>NODE</h1>
           </div>
         </div>
       </div>

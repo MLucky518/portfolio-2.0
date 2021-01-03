@@ -1,12 +1,18 @@
-.projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3%;
-    .project{
-        width:46%;
-        margin:14px !important;
-        background-color: black;
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  .project {
+    width: 46%;
+    margin: 14px !important;
+    background-color: black;
+    p {
+      color:white;
+      a {
+        color: #4b285c  !important;
+      }
     }
+  }
 }

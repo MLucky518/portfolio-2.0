@@ -42,7 +42,7 @@ body {
   align-items: center;
   font-weight: bold;
   text-align: center;
-  height: 70%;
+  height: 100%;
 }
 ul {
   list-style-type: square;
@@ -231,6 +231,15 @@ ul {
   .skill_item {
     margin: 5%;
   }
+
+  .my-info{
+    position: relative;
+    bottom: 10%;
+  }
+
+  
+
+  
   
   
   
