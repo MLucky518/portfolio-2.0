@@ -8,7 +8,9 @@
     width: 46%;
     margin: 14px !important;
     background-color: black;
+    
     p {
+      
       color:white;
       a {
         color: #4b285c  !important;
@@ -16,3 +18,17 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 549px) {
+  .project{
+    width:70% !important;
+  }
+  h1{
+    font-size:2.5rem
+  }
+  
+  
+  }
+
+  

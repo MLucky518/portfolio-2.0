@@ -10,6 +10,7 @@ function ProjectCard(props) {
         src={props.project.img}
         wrapped
         ui={false}
+        class = "project-pic"
       />
       <Card.Content>
         <Card.Header>
@@ -20,7 +21,7 @@ function ProjectCard(props) {
         </Card.Meta>
         <Card.Description>{props.project.textContent}</Card.Description>
       </Card.Content>
-      <Card.Content extra>
+      <Card.Content className="project-links" extra>
         <p>
           Github - <a href={props.project.github}>{props.project.github}</a>{" "}
         </p>
