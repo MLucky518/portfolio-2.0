@@ -14,7 +14,7 @@ function ProjectCard(props) {
       />
       <Card.Content>
         <Card.Header>
-          <h1>{props.project.projectName}</h1>
+          <h1 className = "project-header">{props.project.projectName}</h1>
         </Card.Header>
         <Card.Meta>
           <span className="date">{props.project.techUsed}</span>
