@@ -4,7 +4,7 @@ import { Card, Icon, Image } from "semantic-ui-react";
 function ProjectCard(props) {
   console.log(props);
   return (
-    <Card className="project">
+    <Card className="project proj">
       <Image
         style={{ borderBottom: "2px solid purple" }}
         src={props.project.img}
