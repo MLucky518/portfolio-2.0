@@ -12,7 +12,7 @@ function Navbar() {
         Home
       </div>
       <div className="nav-icon">
-        <NavLink className="nav" to="/myGithub">
+        <NavLink className="nav" to="/myGithub" >
           <i className="fab fa-github-square"></i>
         </NavLink>
         Github
