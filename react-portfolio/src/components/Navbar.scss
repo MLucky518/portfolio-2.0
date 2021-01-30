@@ -1,24 +1,24 @@
 .nav-container {
-  width: 100%;
+  width: 94%;
   height: 11vh;
-
+  position: relative;
+  left: 3%;
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
   .nav {
     text-decoration: none;
     width: 100%;
-    height: 60px;
-    margin: 2%;
+    height: 100px;
   }
 
   i {
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: rgb(17, 17, 17);
     text-shadow: 2px 2px 4px #ffffff;
-    margin-top: 2%;
+    margin-top: 50% !important;
     &:hover {
       color: white;
       font-size: rem;
@@ -42,10 +42,12 @@
 
 .nav-icon {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height:150px;
   color: white;
+  font-size: 1rem;
+ text-decoration: none!important;
 }
 
 .meta {
@@ -56,9 +58,29 @@
   color: white !important;
 }
 
-.logo{
-  height:100px !important;
-  width:100px !important;
+.logo {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  width: 26%;
+  height:160px;
+  
+  background-color: #2f123d !important;
+  background: none;
+
+  i{
+    font-size: 6rem;
+  }
+ 
+}
+
+.main-bar{
+  border: 1px solid black;
 }
 
 @media only screen and (max-width: 549px) {
