@@ -18,7 +18,7 @@
     font-size: 3.4rem;
     color: rgb(17, 17, 17);
     text-shadow: 1px 1px 2px #820b8d;
-    margin-top: 50% !important;
+    
     &:hover {
       color: white;
       font-size: rem;
@@ -42,7 +42,7 @@
 
 .nav-icon {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
   height:150px;
   color: white;
@@ -66,7 +66,7 @@
 .sidebar {
   display: flex;
   flex-direction: column;
- align-items: center;
+  align-items: center;
   width: 26%;
   height:160px;
   
@@ -78,13 +78,27 @@
   }
  
 }
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .main-bar{
   border: 1px solid black;
+  
 }
 
 @media only screen and (max-width: 549px) {
-  .item{
-    height:520px
+  .sidebar{
+    flex-direction: row;
+    flex-wrap: wrap;
+    i{
+      font-size: 5rem;
+    }
+    .item{
+      width:50%;
+    }
   }
 }
