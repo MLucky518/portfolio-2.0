@@ -90,7 +90,7 @@ function Sidenav({ animation, direction, visible }) {
       </Sidebar>
       <div>
         <i
-          className="chevron circle left icon menu-icon"
+          className="align justify left icon menu-icon"
           active={state.direction === "right"}
           onClick={() => setState({ ...state, visible: !state.visible })}
         ></i>
