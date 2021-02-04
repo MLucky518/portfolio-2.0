@@ -10,8 +10,6 @@
   justify-content: space-between;
   align-items: center;
   background: none;
-
- 
 }
 
 .nav-icon {
@@ -21,12 +19,11 @@
 
   color: white;
   font-size: 1rem;
- 
 }
-.sidebar{
+.sidebar {
   background-color: #4b285c;
   font-size: 1.5rem;
-  height:20vh;
+  height: 20vh;
 }
 
 .meta {
@@ -48,19 +45,16 @@
   justify-content: center;
   align-items: center;
 }
-.topbar{
+.topbar {
   color: white;
   margin: 10%;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
-.top-nav{
+.top-nav {
   display: flex;
   position: relative;
-  left:35%;
-  
+  left: 35%;
 }
-
-
 
 .menu-icon-visiblity {
   font-size: 2rem !important;
@@ -68,41 +62,40 @@
   visibility: hidden;
 }
 @media only screen and (min-width: 550px) and (max-width: 1089px) {
-  .menu-icon-visiblity{
+  .menu-icon-visiblity {
     visibility: visible;
   }
-  .top-nav{
+  .top-nav {
     visibility: hidden;
-    right:35%;
-    height:0px;
-    width:0px;
+    right: 35%;
+    height: 0px;
+    width: 0px;
   }
-  .topbar{
+  .topbar {
     visibility: hidden;
-    height:0px;
-    width:0px;
+    height: 0px;
+    width: 0px;
   }
 }
 @media only screen and (max-width: 549px) {
-  .menu-icon-visiblity{
+  .menu-icon-visiblity {
     visibility: visible;
   }
-  .top-nav{
+  .top-nav {
     visibility: hidden;
-    right:35%;
-    height:0px;
-    width:0px;
+    right: 35%;
+    height: 0px;
+    width: 0px;
   }
-  .topbar{
+  .topbar {
     visibility: hidden;
-    height:0px;
-    width:0px;
+    height: 0px;
+    width: 0px;
   }
-  .sidebar{
-    margin-right:28%;
+  .sidebar {
+    margin-right: 20%;
   }
-  .close{
-    margin-right:28% !important;
+  .close {
+    margin-right: 20% !important;
   }
- 
 }
