@@ -1,41 +1,33 @@
 body {
   background-color: #170b1d;
 }
-a{ color: inherit;}
-
-.serif {
-  font-family: "Times New Roman", Times, serif;
+a {
+  color: inherit;
 }
 
-.sansserif {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
 
 .App {
   background-color: #2f163a;
-}
-
-.top-content {
   background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
   background-attachment: fixed;
 }
 
-.main-image {
-  margin-top: 5%;
-  box-shadow: 0 0 50px #4b285c;
+.top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ 
+  
 }
 
+
+
 .my-info {
-  width: 33%;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -43,7 +35,7 @@ a{ color: inherit;}
   align-items: center;
   font-weight: bold;
   text-align: center;
-  height: 100%;
+  height: 60vh;
 }
 ul {
   list-style-type: square;
@@ -57,17 +49,19 @@ li {
 }
 
 h1 {
-  font-size: 3rem;
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 5rem;
   color: #4b285c;
   text-shadow: 1px 1px 2px #ffffff;
 }
+
 .skill_header {
   font-size: 3rem !important;
   color: #341b41;
   text-shadow: 1px 1px 1px #ffffff;
 }
-
-
 
 .about-container {
   color: white !important;
@@ -75,7 +69,6 @@ h1 {
   font-weight: bold;
   margin-right: 3%;
   text-align: center;
-  width: 70%;
   margin-top: 3%;
   display: flex !important;
   flex-direction: column !important;
@@ -87,6 +80,21 @@ h1 {
   p {
     margin-left: 3%;
   }
+
+  
+}
+.about-contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40%;
+}
+
+.about-button{
+  height:60px;
+  width:200px;
+  background: none !important;
 }
 
 .skills-container {
@@ -166,7 +174,6 @@ ul {
   list-style-type: none;
 }
 
-
 .page-enter {
   opacity: 0;
   transform: scale(1.1);
@@ -189,15 +196,11 @@ ul {
   transition: opacity 300ms, transform 300ms;
 }
 
-
-
-
 @media only screen and (min-width: 550px) and (max-width: 1089px) {
   .top-content {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 130vh;
   }
   .skill_items {
     position: relative;
@@ -209,7 +212,6 @@ ul {
     width: 60%;
     left: 21%;
   }
-  
 }
 
 @media only screen and (max-width: 549px) {
@@ -244,9 +246,4 @@ ul {
   .skill_item {
     margin: 5%;
   }
-
-  
-  
-  
-  
 }

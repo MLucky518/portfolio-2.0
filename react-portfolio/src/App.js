@@ -1,20 +1,12 @@
 import React from "react";
 import "./App.scss";
 import Navbar from "./components/Navbar";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import GithubInfo from "./components/GithubInfo";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
-import { TransitionGroup } from "semantic-ui-react";
-
-// TODO!!!!!!!! add routes to map over and make transition groups out of
 
 const routes = [
   { path: "/", name: "home", Component: Home },
@@ -28,25 +20,25 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        
-          {routes.map(({ path, Component }) => (
-            <Route key={path} exact path={path}>
-              {({ match }) => (
-                <CSSTransition
-                  in={match != null}
-                  timeout={1600}
-                  classNames="page"
-                  unmountOnExit
-                ><Switch>
+
+        {routes.map(({ path, Component }) => (
+          <Route key={path} exact path={path}>
+            {({ match }) => (
+              <CSSTransition
+                in={match != null}
+                timeout={1600}
+                classNames="page"
+                unmountOnExit
+              >
+                <Switch>
                   <div className="top-content">
-                  <Component/>
+                    <Component />
                   </div>
-                  </Switch>
-                </CSSTransition>
-              )}
-            </Route>
-          ))}
-        
+                </Switch>
+              </CSSTransition>
+            )}
+          </Route>
+        ))}
       </div>
     </Router>
   );

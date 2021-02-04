@@ -1,27 +1,22 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-
+import React from "react";
+import { motion } from "framer-motion";
 
 function About(props) {
-
-  
-  useEffect(() => {
-    gsap.to(".about-container", 2, {
-      startAt: { x: -1000, opacity: 1 },
-      x: 10,
-      y: 10,
-    });
-  }, []);
-  console.log(props);
   return (
-    <div className=" about-container">
-      <h2 >{props.header}</h2>
+    <motion.div
+      transition={{
+        duration: 3,
+        ease: "easeInOut",
+      }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className=" about-container"
+    >
+      <h2>{props.header}</h2>
 
       <p>{props.info.about1}</p>
       <p>{props.info.about2}</p>
-
-      
-    </div>
+    </motion.div>
   );
 }
 

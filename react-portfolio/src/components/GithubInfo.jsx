@@ -36,7 +36,7 @@ function GithubInfo() {
 
   return (
     <div className="github-container">
-      <h1>My GithubInfo</h1>
+      <h1>My Github</h1>
       <img src={userInfo.avatar_url}></img>
       <h1>{userInfo.login}</h1>
       <div className="calendar">

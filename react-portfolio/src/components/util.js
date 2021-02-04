@@ -7,9 +7,9 @@ import pic6 from "../ghana.png";
 
 export const aboutInfo = {
   about1:
-    " I am a passionate engineer with a creative side that loves to work on new things and is constantly learning. I love approaching new problems and coming up with productive solutions. I am a father of three beautiful kids and have dedicated my life to working as hard as i possible can to give them the life i couldnt have a a kid.",
+    " I am a passionate engineer with a creative side that loves to work on new things and is constantly learning. I love approaching new problems and coming up with productive solutions. I am a father of three beautiful kids and have dedicated my life to working as hard as I possible can to give them the life I couldnt have a a kid.",
   about2:
-    "I originally started programming with the intent on making video games using C# and the Unity game engine. After teaching myself to program simple programs in Java and C# i enrolled in the Lambda School's online remote full stack web development curriculum.Here i learned many new concepts and technologies, and also learned how to work remotely in a team to create a product based on pre defined specifications",
+    "I originally started programming with the intent on making video games using C# and the Unity game engine. After teaching myself to program simple programs in Java and C# i enrolled in the Lambda School's online remote full stack web development curriculum. Here I learned many new concepts and technologies, and also learned how to work remotely in a team to create a product based on pre defined specifications",
 };
 
 export const gitInfo = {
