@@ -19,7 +19,7 @@ function Sidenav({ animation, direction, visible }) {
         direction={state.direction}
         icon="labeled"
         visible={state.visible}
-        width="wide"
+        width="thin"
       >
         <Menu.Item className="sidebar">
           <i className="fas fa-home"></i>
