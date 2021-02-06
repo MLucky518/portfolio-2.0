@@ -21,7 +21,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top:3%;
+  margin-top:2%;
  
   
 }
@@ -89,7 +89,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 40%;
+  
 }
 
 .about-button{
@@ -220,9 +220,9 @@ ul {
   .top-content {
     flex-direction: column;
     align-items: center;
-
-    justify-content: space-between;
-    height: 100vh;
+    
+    justify-content: space-around;
+    height: 120vh;
   }
   .skill_items {
     position: relative;
@@ -237,6 +237,10 @@ ul {
     }
   }
 
+  h1{
+    font-size:2rem;
+  }
+
   .calendar {
     width: 80%;
     left: 10%;
@@ -247,5 +251,11 @@ ul {
   }
   .skill_item {
     margin: 5%;
+  }
+
+  .about-button{
+    position: relative;
+    
+    
   }
 }
