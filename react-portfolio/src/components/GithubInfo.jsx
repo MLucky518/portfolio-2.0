@@ -10,7 +10,7 @@ function GithubInfo() {
       .get("https://api.github.com/users/MLucky518")
 
       .then((res) => {
-        console.log(res);
+        console.log(res,"res");
         setUserInfo(res.data);
         axios
           .get("https://api.github.com/users/MLucky518/repos")
@@ -42,8 +42,9 @@ function GithubInfo() {
       <div className="calendar">
         <GitHubCalendar
           color="purple"
-          username={userInfo.login}
+          username={"MLucky518"}
           blockSize={14}
+          showTotalCount={true}
         />
       </div>
     </div>
