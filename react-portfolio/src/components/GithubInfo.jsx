@@ -10,13 +10,13 @@ function GithubInfo() {
       .get("https://api.github.com/users/MLucky518")
 
       .then((res) => {
-        console.log(res,"res");
+        
         setUserInfo(res.data);
         axios
           .get("https://api.github.com/users/MLucky518/repos")
 
           .then((res) => {
-            console.log(res);
+            
           })
           .catch((err) => {
             console.log("repo error");
