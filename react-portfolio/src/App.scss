@@ -227,10 +227,10 @@ ul {
   .skill_items {
     position: relative;
     right: 2%;
-    top: 6%;
+    
 
     align-items: center;
-    height: 50%;
+   
 
     .skill_header {
       font-size: 2rem !important;
@@ -241,14 +241,13 @@ ul {
     font-size:2rem;
   }
 
+  
+
   .calendar {
     width: 80%;
     left: 10%;
   }
-  .skills-container {
-    position: relative;
-    top: 5%;
-  }
+  
   .skill_item {
     margin: 5%;
   }

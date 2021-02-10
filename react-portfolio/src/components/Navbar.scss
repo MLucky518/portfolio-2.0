@@ -19,6 +19,7 @@
 
   color: white;
   font-size: 1rem;
+  
 }
 .sidebar {
   background-color: #4b285c;
@@ -33,10 +34,15 @@
 .description {
   color: white !important;
 }
+.nav{
+  &:hover{
+    color:#4b285c;
+  }
+}
 
 .logo {
-  height: 100px !important;
-  width: 100px !important;
+  height: 80px !important;
+  width: 80px !important;
 }
 
 .item {
@@ -49,6 +55,9 @@
   color: white;
   margin: 10%;
   font-size: 1.2rem;
+  &:hover{
+    color:#4b285c;
+  }
 }
 .top-nav {
   display: flex;
@@ -94,8 +103,8 @@
   }
 
   .logo {
-    height: 60px !important;
-    width: 60px !important;
+    height: 40px !important;
+    width: 40px !important;
   }
   
 
