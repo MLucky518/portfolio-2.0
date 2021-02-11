@@ -1,8 +1,10 @@
 import React from "react";
+import "./footer.scss";
 
 function Footer() {
   return <div className={"footer"}>
-    <h1>Footer1</h1>
+    <div><h1>Footer icons</h1></div>
+    <div><h1>Email Form</h1></div>
   </div>;
 }
 

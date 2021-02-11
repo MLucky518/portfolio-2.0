@@ -12,12 +12,12 @@ function TopNav() {
           Home
         </NavLink>
       </Menu.Item>
-      <Menu.Item className="topbar">
+      {/* <Menu.Item className="topbar">
         <i className="fab fa-github-square"></i>
         <NavLink className="nav" to="/myGithub">
           Github
         </NavLink>
-      </Menu.Item>
+      </Menu.Item> */}
       <Menu.Item className="topbar">
         <i className="fab fa-readme"></i>
         <NavLink className="nav" to="/mySkills">

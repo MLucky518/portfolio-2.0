@@ -7,10 +7,11 @@ import GithubInfo from "./components/GithubInfo";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 
 const routes = [
   { path: "/", name: "home", Component: Home },
-  { path: "/myGithub", name: "github-info", Component: GithubInfo },
+  // { path: "/myGithub", name: "github-info", Component: GithubInfo },
   { path: "/projects", name: "projects", Component: Projects },
   { path: "/mySkills", name: "skills", Component: Skills },
 ];
@@ -39,6 +40,7 @@ function App() {
             )}
           </Route>
         ))}
+        <Footer/>
       </div>
     </Router>
   );
