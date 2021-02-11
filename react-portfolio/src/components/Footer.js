@@ -3,8 +3,8 @@ import "./footer.scss";
 
 function Footer() {
   return <div className={"footer"}>
-    <div><h1>Footer icons</h1></div>
-    <div><h1>Email Form</h1></div>
+    {/* <div><h1>Footer icons</h1></div>
+    <div><h1>Email Form</h1></div> */}
   </div>;
 }
 
