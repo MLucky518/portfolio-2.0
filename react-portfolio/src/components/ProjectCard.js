@@ -9,7 +9,7 @@ function ProjectCard(props) {
         style={{ borderBottom: "2px solid purple" }}
         src={props.project.img}
         wrapped
-        ui={false}
+        
         class = "project-pic"
       />
       <Card.Content>

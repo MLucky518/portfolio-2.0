@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #170b1d;
 }
@@ -6,7 +10,7 @@ a {
 }
 
 .App {
-    background-color: #2f163a;
+    background-color: #341b41;
     background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,12 +47,12 @@ li {
 }
 
 h1 {
-    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     position: relative;
-    font-size: 5rem;
-    color: #4b285c;
-    text-shadow: 1px 1px 2px #ffffff;
+    font-size: 4.5rem;
+    color: #341b41;
+    text-shadow: 1px 2px 1px black;
 }
 
 .skill_header {
@@ -61,18 +65,18 @@ h1 {
     color: white !important;
     font-size: 1.5rem !important;
     font-weight: bold;
-    margin-right: 3%;
     text-align: center;
     margin-top: 3%;
     display: flex !important;
     flex-direction: column !important;
-    height: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    width: 50%;
+
     h2 {
         margin-bottom: 2% !important;
-        color: #4b285c !important;
-    }
-    p {
-        margin-left: 3%;
+        color: white;
     }
 }
 .about-contents {
@@ -146,6 +150,11 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.main-img {
+    height: 400px;
+    width: 300px;
 }
 
 .card {
@@ -229,5 +238,8 @@ ul {
 
     .about-button {
         position: relative;
+    }
+    .projects{
+        height:150vh;
     }
 }

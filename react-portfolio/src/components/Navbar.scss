@@ -1,5 +1,5 @@
 .nav-container {
-  width: 94%;
+  width: 97%;
   height: 11vh;
   position: sticky;
   top: 0;
@@ -36,13 +36,13 @@
 }
 .nav{
   &:hover{
-    color:#4b285c;
+    color:white;
   }
 }
 
 .logo {
-  height: 80px !important;
-  width: 80px !important;
+  height: 70px !important;
+  width: 70px !important;
 }
 
 .item {
@@ -52,11 +52,11 @@
   align-items: center;
 }
 .topbar {
-  color: white;
+  color: #52057b;
   margin: 10%;
   font-size: 1.2rem;
   &:hover{
-    color:#4b285c;
+    color:white;
   }
 }
 .top-nav {
@@ -68,36 +68,42 @@
 .menu-icon-visiblity {
   font-size: 2rem !important;
   color: #4b285c;
-  visibility: hidden;
+  display: none;
+}
+
+@media only screen and (min-width:1090px) and (max-width:1500px){
+  .nav-container{
+    width: 94%;
+  }
 }
 @media only screen and (min-width: 550px) and (max-width: 1089px) {
   .menu-icon-visiblity {
-    visibility: visible;
+    display: inline;
   }
   .top-nav {
-    visibility: hidden;
+    display:none;
     right: 35%;
     height: 0px;
     width: 0px;
   }
   .topbar {
-    visibility: hidden;
+    display:none;
     height: 0px;
     width: 0px;
   }
 }
 @media only screen and (max-width: 549px) {
   .menu-icon-visiblity {
-    visibility: visible;
+    display: inline;
   }
   .top-nav {
-    visibility: hidden;
+    display:none;
     right: 35%;
     height: 0px;
     width: 0px;
   }
   .topbar {
-    visibility: hidden;
+    display:none;
     height: 0px;
     width: 0px;
   }
