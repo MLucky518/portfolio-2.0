@@ -121,6 +121,21 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
     }
 }
 
+.skill-info{
+    width:50%;
+    
+    p{
+        color:white;
+        font-size:1rem;
+    }
+}
+
+h4{
+    
+    font-size:1.2rem;
+    color: #4b285c;
+}
+
 @media (max-width:#{2*$viewport-thereshold}) {
     .honeycomb-cell {
         margin: #{$hexagon-margin/2 + $hexagon-height/2} $hexagon-margin;
