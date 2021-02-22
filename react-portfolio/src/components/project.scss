@@ -1,33 +1,34 @@
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  .project {
-    width: 46%;
-    margin: 14px !important;
-    background-color: black;
-    
-    p {
-      
-      color:white;
-      a {
-        color: #4b285c  !important;
-      }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:770vh;
+    .project {
+        text-overflow: clip !important;
+        width: 90%;
+        margin: 14px !important;
+        background-color: black;
+
+        p {
+            color: white;
+            a {
+                color: #4b285c !important;
+            }
+        }
     }
-  }
 }
 
-
+h3 {
+    color: #4b285c;
+    font-size: 2rem;
+    margin-bottom: 2% !important;
+}
 @media only screen and (max-width: 549px) {
-  .project.proj{
-    width:70% !important;
-  }
-  .project-header{
-    font-size:2.5rem
-  }
-  
-  
-  }
-
-  
+    .project.proj {
+        width: 70% !important;
+    }
+    .project-header {
+        font-size: 2.5rem;
+    }
+}

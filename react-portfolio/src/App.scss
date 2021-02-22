@@ -55,12 +55,6 @@ h1 {
     text-shadow: 1px 2px 1px black;
 }
 
-.skill_header {
-    font-size: 3rem !important;
-    color: #341b41;
-    text-shadow: 1px 1px 1px #ffffff;
-}
-
 .about-container {
     color: white !important;
     font-size: 1.5rem !important;
@@ -93,41 +87,12 @@ h1 {
     color: white !important;
 }
 
-.skills-container {
-    text-align: center;
-    width: 100% !important;
-}
-
 .github-container {
     text-align: center;
     width: 100%;
     height: 80vh;
 }
 
-.skill_item {
-    width: 30% !important;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 #f638dc(0, 0, 0, 0.19);
-    &:hover {
-        transform: scale3d(1.2, 1.2, 1);
-    }
-}
-
-.skill_items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 2%;
-}
 .react {
     position: relative;
     top: 13px;
@@ -161,14 +126,8 @@ h1 {
     border: 1px solid purple !important;
     text-align: center;
     color: #4b285c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px !important;
+
     box-shadow: 0 0 50px #4b285c !important;
-    li {
-        margin-top: 8%;
-    }
 }
 
 ul {
@@ -239,7 +198,7 @@ ul {
     .about-button {
         position: relative;
     }
-    .projects{
-        height:150vh;
+    .projects {
+        height: 150vh;
     }
 }
