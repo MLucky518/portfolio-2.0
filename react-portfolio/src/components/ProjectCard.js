@@ -4,8 +4,8 @@ import { Card, Icon, Image } from "semantic-ui-react";
 function ProjectCard(props) {
     console.log(props);
     return (
-        <Card className="project proj">
-            <Image src={props.project.img} wrapped ui={false} />
+        <Card className="project">
+            <Image src={props.project.img} wrapped ui={false} size="small" />
             <Card.Content>
                 <Card.Header>
                     <h3 className="project-header">
