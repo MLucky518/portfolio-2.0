@@ -1,5 +1,5 @@
 import pic1 from "../1608578515471.png";
-import pic2 from "../pet.png";
+import pic2 from "../mchat.png";
 import pic3 from "../conway.png";
 import pic4 from "../calc.png";
 import pic5 from "../poke.png";
@@ -38,8 +38,8 @@ export const projectData = [
     techUsed: [],
     links: ["github-", "liveSite- "],
     github:"https://github.com/Build-Week-DevDeskQueue/Marketing-Page/tree/michael-luck",
-    liveSite:"https://g.expressgroomer.dev/ -- username:llama001@maildrop.cc  Password:Test001Test",
-    projectName: "Pet-XPress",
+    liveSite:"https://m-chat-ef624.web.app/",
+    projectName: "Mchat",
   },
   {
     img: pic3,
