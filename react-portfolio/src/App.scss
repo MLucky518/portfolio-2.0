@@ -11,7 +11,6 @@ a {
 
 .App {
     background-color: black;
-    
 }
 
 .top-content {
@@ -23,7 +22,7 @@ a {
     margin-top: 2%;
 }
 
-.home-wrapper{
+.home-wrapper {
     background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,6 +82,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 200vh;
 }
 
 .about-button {
@@ -184,7 +184,7 @@ ul {
         align-items: center;
 
         justify-content: space-around;
-        height: 260vh;
+        height: 200vh;
     }
 
     h1 {
@@ -202,7 +202,6 @@ ul {
 
     .about-button {
         position: relative;
-       
     }
     .projects {
         height: 150vh;
@@ -215,8 +214,8 @@ ul {
         position: relative;
         bottom: 30%;
     }
-.about-container{
-    height:150vh;
-}
-    
+    .about-container {
+        height: 180vh;
+        margin-bottom:40%;
+    }
 }
