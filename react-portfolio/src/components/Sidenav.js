@@ -48,7 +48,7 @@ function Sidenav({ animation, direction, visible }) {
             className="nav"
             to="/mySkills"
           >
-            MySkills
+            Skills
           </NavLink>
         </Menu.Item>
         <Menu.Item className="sidebar">
