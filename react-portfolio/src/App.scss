@@ -9,11 +9,15 @@ a {
     color: inherit;
 }
 
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 70vh;
+}
+
 .App {
     background-color: black;
-}
-.home{
-    height:200vh;
 }
 
 .top-content {
@@ -23,12 +27,10 @@ a {
     align-items: center;
     width: 100%;
     margin-top: 2%;
-}
-
-.home-wrapper {
     background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .my-info {
@@ -72,7 +74,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
-    width: 50%;
+    width: 98%;
     height: 100vh;
 
     h2 {
@@ -80,13 +82,7 @@ h1 {
         color: white;
     }
 }
-.about-contents {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 200vh;
-}
+
 
 .about-button {
     height: 60px;
@@ -185,9 +181,9 @@ ul {
     .top-content {
         flex-direction: column;
         align-items: center;
-        margin-top: 20%;
+
         justify-content: space-around;
-        height: 300vh;
+        height: 220vh;
     }
 
     h1 {
@@ -210,26 +206,12 @@ ul {
         height: 150vh;
     }
     .main-img {
-        height: 100px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
     .home {
         position: relative;
-        bottom: 30%;
-        height:250vh;
-        margin-bottom: 10%;
-    }
-
-    .home-wrapper{
-        margin-bottom: 20%;
-    }
-    .about-container {
-        height: 180vh;
-        margin-bottom:40%;
-    }
-
-    .about-contents{
-        height:230vh;
-        margin-bottom: 40%;
+        bottom: 20%;
+        
     }
 }

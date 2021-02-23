@@ -7,46 +7,47 @@ import GithubInfo from "./components/GithubInfo";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Home from "./components/Home";
-import Footer from "./components/Footer";
+import About from "./components/About";
+import { aboutInfo } from "./components/util";
 
 const routes = [
-  // { path: "/", name: "home", Component: Home },
-  // { path: "/myGithub", name: "github-info", Component: GithubInfo },
-  { path: "/projects", name: "projects", Component: Projects },
-  { path: "/mySkills", name: "skills", Component: Skills },
+    { path: "/", name: "home", Component: Home },
+    // { path: "/myGithub", name: "github-info", Component: GithubInfo },
+    { path: "/projects", name: "projects", Component: Projects },
+    { path: "/mySkills", name: "skills", Component: Skills },
 ];
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <div className = "home-wrapper">
-        <Navbar />
-        <Home/>
-        </div>
+    return (
+        <Router>
+            <div className="App">
+                <Navbar />
 
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path}>
-            {({ match }) => (
-              <CSSTransition
-                in={match != null}
-                timeout={1600}
-                classNames="page"
-                unmountOnExit
-              >
-                <Switch>
-                  <div className="top-content">
-                    <Component />
-                  </div>
-                </Switch>
-              </CSSTransition>
-            )}
-          </Route>
-        ))}
-        {/* <Footer/> */}
-      </div>
-    </Router>
-  );
+                {routes.map(({ path, Component }) => (
+                    <Route key={path} exact path={path}>
+                        {({ match }) => (
+                            <CSSTransition
+                                in={match != null}
+                                timeout={1600}
+                                classNames="page"
+                                unmountOnExit
+                            >
+                                <Switch>
+                                    <div className="top-content">
+                                        <Component />
+                                        
+                                    </div>
+                                </Switch>
+                            </CSSTransition>
+                        )}
+                    </Route>
+                    
+                ))}
+                {/* <Footer/> */}
+                <Route exact path = "/about"><About info={aboutInfo} header={"Hello World,"} /></Route>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

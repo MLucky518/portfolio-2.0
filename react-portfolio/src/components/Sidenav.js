@@ -31,7 +31,7 @@ function Sidenav({ animation, direction, visible }) {
             Home
           </NavLink>
         </Menu.Item>
-        <Menu.Item className="sidebar">
+        {/* <Menu.Item className="sidebar">
           <i className="fab fa-github-square"></i>
           <NavLink
             onClick={() => setState({ ...state, visible: false })}
@@ -40,7 +40,7 @@ function Sidenav({ animation, direction, visible }) {
           >
             Github
           </NavLink>
-        </Menu.Item>
+        </Menu.Item> */}
         <Menu.Item className="sidebar">
           <i className="fab fa-readme"></i>
           <NavLink
