@@ -6,7 +6,7 @@ import { aboutInfo } from "./util"
 
 function Home() {
     return (
-        <div className = "top-content">
+        <div className = "home">
             <MyInfo/>
             <AboutTransition/>
         </div>

@@ -3,7 +3,7 @@ import "./skills.scss";
 
 function Skills() {
     return (
-        <div>
+        <div className = "skills">
             <ul className="honeycomb" lang="es">
                 <li className="honeycomb-cell">
                     <img

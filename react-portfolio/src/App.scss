@@ -180,7 +180,7 @@ ul {
         align-items: center;
 
         justify-content: space-around;
-        height: 120vh;
+        height: 200vh;
     }
 
     h1 {
@@ -205,5 +205,10 @@ ul {
     .main-img{
         height:100px;
         width:150px;
+    }
+    .home{
+        position: relative;
+        bottom:30%;
+        
     }
 }
