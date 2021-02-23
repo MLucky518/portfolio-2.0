@@ -10,10 +10,8 @@ a {
 }
 
 .App {
-    background-color: #341b41;
-    background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
+    
 }
 
 .top-content {
@@ -23,6 +21,12 @@ a {
     align-items: center;
     width: 100%;
     margin-top: 2%;
+}
+
+.home-wrapper{
+    background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .my-info {

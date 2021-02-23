@@ -137,8 +137,11 @@ h4 {
 }
 
 .skill-box {
-    width: 30%;
-    text-align: center !important;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
 }
 
 @media only screen and (max-width: 549px) {
@@ -148,8 +151,5 @@ h4 {
     .skill-box {
         width: 100%;
         margin-bottom: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 }

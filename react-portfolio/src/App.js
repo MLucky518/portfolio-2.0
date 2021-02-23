@@ -20,8 +20,10 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className = "home-wrapper">
         <Navbar />
         <Home/>
+        </div>
 
         {routes.map(({ path, Component }) => (
           <Route key={path} exact path={path}>
