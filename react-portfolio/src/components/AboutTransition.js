@@ -10,20 +10,20 @@ export default class AboutTransition extends Component {
     this.setState((prevState) => ({ visible: !prevState.visible }));
 
   render() {
-    const { visible } = this.state;
+    
 
     return (
       <div className="about-contents">
         <Button
-          content={visible ? "X" : "About Me"}
+          content={this.state.visible ? "X" : "About Me"}
           onClick={this.toggleVisibility}
           className={"about-button"}
         />
         <Divider hidden />
         <Transition
-          visible={visible}
+          visible={this.state.visible}
           animation="scale"
-          duration={700}
+          duration={500}
           unmountOnHide={true}
         >
           <About info={aboutInfo} header={"Hello World,"} />
