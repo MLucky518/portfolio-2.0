@@ -10,7 +10,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 
 const routes = [
-  { path: "/", name: "home", Component: Home },
+  // { path: "/", name: "home", Component: Home },
   // { path: "/myGithub", name: "github-info", Component: GithubInfo },
   { path: "/projects", name: "projects", Component: Projects },
   { path: "/mySkills", name: "skills", Component: Skills },
@@ -21,6 +21,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Home/>
 
         {routes.map(({ path, Component }) => (
           <Route key={path} exact path={path}>

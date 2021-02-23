@@ -180,7 +180,7 @@ ul {
         align-items: center;
 
         justify-content: space-around;
-        height: 200vh;
+        height: 230vh;
     }
 
     h1 {
@@ -198,6 +198,7 @@ ul {
 
     .about-button {
         position: relative;
+       
     }
     .projects {
         height: 150vh;
@@ -210,4 +211,8 @@ ul {
         position: relative;
         bottom: 30%;
     }
+.about-container{
+    height:150vh;
+}
+    
 }
