@@ -185,9 +185,9 @@ ul {
     .top-content {
         flex-direction: column;
         align-items: center;
-
+        margin-top: 20%;
         justify-content: space-around;
-        height: 200vh;
+        height: 230vh;
     }
 
     h1 {
@@ -219,8 +219,17 @@ ul {
         height:250vh;
         margin-bottom: 10%;
     }
+
+    .home-wrapper{
+        margin-bottom: 20%;
+    }
     .about-container {
         height: 180vh;
         margin-bottom:40%;
+    }
+
+    .about-contents{
+        height:200vh;
+        margin-bottom: 40%;
     }
 }
