@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Home from "./components/Home";
 import About from "./components/About";
 import { aboutInfo } from "./components/util";
+import Footer from "./components/Footer";
 
 const routes = [
     { path: "/", name: "home", Component: Home },
@@ -43,8 +44,9 @@ function App() {
                     </Route>
                     
                 ))}
-                {/* <Footer/> */}
+                
                 <Route exact path = "/about"><About info={aboutInfo} header={"Hello World,"} /></Route>
+                {/* <Footer/> */}
             </div>
         </Router>
     );

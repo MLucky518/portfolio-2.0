@@ -4,6 +4,7 @@ import { projectData } from "./util";
 import "./project.scss";
 
 
+
 function Projects() {
   return (
     <div className="projects">
