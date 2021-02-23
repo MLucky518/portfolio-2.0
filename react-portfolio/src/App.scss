@@ -67,6 +67,7 @@ h1 {
     justify-content: center;
     margin-bottom: 5%;
     width: 50%;
+    height:100vh;
 
     h2 {
         margin-bottom: 2% !important;
@@ -200,5 +201,9 @@ ul {
     }
     .projects {
         height: 150vh;
+    }
+    .main-img{
+        height:100px;
+        width:100px;
     }
 }
