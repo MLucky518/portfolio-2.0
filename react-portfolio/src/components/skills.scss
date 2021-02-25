@@ -128,7 +128,7 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
 
 h4 {
     font-size: 1.2rem;
-    color: #4b285c;
+    color: white;
 }
 
 .skills {
@@ -147,6 +147,8 @@ h4 {
 @media only screen and (max-width: 549px) {
     .honeycomb {
         width:70%;
+        position: relative;
+        bottom: 25%!important;
     }
 
     .skill-box {
