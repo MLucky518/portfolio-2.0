@@ -3,52 +3,47 @@ import axios from "axios";
 import GitHubCalendar from "react-github-calendar";
 
 function GithubInfo() {
-  const [userInfo, setUserInfo] = useState({});
+    const [userInfo, setUserInfo] = useState({});
 
-  const getData = () => {
-    axios
-      .get("https://api.github.com/users/MLucky518")
-
-      .then((res) => {
-        console.log(res,"res");
-        setUserInfo(res.data);
+    const getData = () => {
         axios
-          .get("https://api.github.com/users/MLucky518/repos")
+            .get("https://api.github.com/users/MLucky518")
 
-          .then((res) => {
-            console.log(res);
-          })
-          .catch((err) => {
-            console.log("repo error");
-          });
-      })
+            .then((res) => {
+                console.log(res, "res");
+                setUserInfo(res.data);
+                axios
+                    .get("https://api.github.com/users/MLucky518/repos")
 
-      .catch((err) => {
-        console.log("error", err);
-      });
-  };
+                    .then((res) => {
+                        console.log(res);
+                    })
+                    .catch((err) => {
+                        console.log("repo error");
+                    });
+            })
 
-  useEffect(() => {
-    getData();
-  }, []);
+            .catch((err) => {
+                console.log("error", err);
+            });
+    };
 
-  console.log(userInfo);
+    useEffect(() => {
+        getData();
+    }, []);
 
-  return (
-    <div className="github-container">
-      <h1>My Github</h1>
-      <img src={userInfo.avatar_url}></img>
-      <h1>{userInfo.login}</h1>
-      <div className="calendar">
-        <GitHubCalendar
-          color="purple"
-          username={"MLucky518"}
-          blockSize={14}
-          showTotalCount={true}
-        />
-      </div>
-    </div>
-  );
+    console.log(userInfo);
+
+    return (
+        <div className="github-container">
+            <h1>My Github</h1>
+            <img src={userInfo.avatar_url}></img>
+            <h1>{userInfo.login}</h1>
+            <div className="calendar">
+                <GitHubCalendar username={"MLucky518"} />
+            </div>
+        </div>
+    );
 }
 
 export default GithubInfo;

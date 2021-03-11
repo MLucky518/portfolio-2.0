@@ -21,7 +21,7 @@ function Header() {
                 animate={{ opacity: 1 }}
             >
                 <h1>
-                    <span>Hello World,</span>
+                    <span>Michael</span>
                 </h1>
             </motion.h1>
             <motion.h1
@@ -33,7 +33,7 @@ function Header() {
                 animate={{ opacity: 1 }}
             >
                 <h1>
-                    <span>Im Michael</span>
+                    <span>Luck</span>
                 </h1>
             </motion.h1>
 

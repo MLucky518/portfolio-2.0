@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 const routes = [
     { path: "/", name: "home", Component: Home },
-    // { path: "/myGithub", name: "github-info", Component: GithubInfo },
+    { path: "/myGithub", name: "github-info", Component: GithubInfo },
     { path: "/projects", name: "projects", Component: Projects },
     { path: "/mySkills", name: "skills", Component: Skills },
 ];
