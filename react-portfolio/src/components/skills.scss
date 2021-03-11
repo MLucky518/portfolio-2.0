@@ -24,7 +24,7 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
     max-width: $honeycomb-max-width;
     padding: 0;
     transform: translateY(#{$hexagon-height/4});
-
+   
     &-cell {
         flex: 0 1 $hexagon-width;
         max-width: $hexagon-width;

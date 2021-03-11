@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
 * {
     box-sizing: border-box;
 }
 body {
-    background-color: #170b1d;
+    background-color: black;
 }
 a {
     color: inherit;
@@ -15,10 +15,18 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     height: 82vh;
+    width:100%;
+    background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+   
 }
 
 .App {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+
 }
 
 .top-content {
@@ -28,11 +36,8 @@ a {
     align-items: center;
     width: 100%;
     margin-top: 2%;
+    height:100%;
     
-    background-image: url("https://images.unsplash.com/photo-1572509018340-1fc13b5df491?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .my-info {
@@ -57,7 +62,7 @@ li {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    
     text-transform: uppercase;
     position: relative;
     font-size: 4.5rem;
