@@ -5,7 +5,7 @@ function ProjectCard(props) {
     console.log(props);
     return (
         <Card className="project">
-            <Image src={props.project.img} ui={false} size="small" />
+            <Image src={props.project.img} wrapped ui={false} size="small" />
             <Card.Content>
                 <Card.Header>
                     <h3 className="project-header">
